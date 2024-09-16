@@ -3,6 +3,10 @@ body {
     font-family: sans-serif;
 }
 
+.grabbing {
+    cursor: grabbing;
+}
+
 .desk {
     display: flex;
     position: relative;

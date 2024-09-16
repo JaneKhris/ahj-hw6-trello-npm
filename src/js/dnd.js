@@ -50,6 +50,8 @@ export default function dnd() {
 
     ghostEl.style.top = `${clientRect.top}px`;
     ghostEl.style.left = `${clientRect.left}px`;
+
+    itemsEl.classList.add('grabbing')
   };
 
   const clearDragged = () => {
@@ -57,6 +59,8 @@ export default function dnd() {
     ghostEl = null;
     draggedEl.classList.remove('selected');
     draggedEl = null;
+    itemsEl.classList.remove('grabbing')
+
   };
 
   const onMouseLeave = () => {
