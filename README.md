@@ -1,4 +1,4 @@
-## Домашнее задание к занятию "6. Работа с файлами, DnD"
+## Домашнее задание к занятию "6.Работа с файлами, DnD"
 ### Задача "Trello"
 
 ![CI](https://github.com/JaneKhris/ahj-hw6-trello-npm/actions/workflows/web.yml/badge.svg)
